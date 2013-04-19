@@ -18,6 +18,7 @@ if ('completion' in options) {
   info.version();
 }
 
+/*
 var gruntpath;
 
 try {
@@ -31,6 +32,7 @@ try {
     info.fatal('Unable to find local grunt.', 99);
   }
 }
+*/
 
 // Everything looks good. Require local grunt and run it.
-require(gruntpath).cli();
+require( 'grunt' ).cli();

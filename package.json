@@ -30,7 +30,9 @@
   "dependencies": {
     "nopt": "~1.0.10",
     "findup-sync": "~0.1.0",
-    "resolve": "~0.3.1"
+    "resolve": "~0.3.1",
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
